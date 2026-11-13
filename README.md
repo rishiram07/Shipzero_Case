@@ -80,7 +80,3 @@ A vehicle that starts outside must enter before it can leave, so this rule handl
 - Files use `;` as the delimiter and a decimal comma (`48,557`). Both are set explicitly when reading.
 - GeoJSON coordinates are `[lng, lat]`, so points are tested in that order.
 - Vehicles 2, 3 and 4 have no tracking data.
-
-## Why DuckDB
-
-DuckDB runs SQL directly on CSV files: no database server and no import step, just one `pip install`. The Task 1 queries are standard SQL and would also run on PostgreSQL. In production, PostgreSQL + PostGIS would be a good choice, and it could also solve Task 2 in SQL.
