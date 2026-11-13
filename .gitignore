@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Generated results (re-create them by running the scripts)
+output/*
+!output/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db

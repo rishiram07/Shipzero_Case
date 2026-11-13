@@ -1,0 +1,9 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
+  "python.terminal.activateEnvironment": true,
+  "terminal.integrated.cwd": "${workspaceFolder}",
+  "files.associations": {
+    "*.geojson": "json"
+  },
+  "rainbow_csv.autodetect_separators": [";", ","]
+}
